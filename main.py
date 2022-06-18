@@ -53,3 +53,8 @@ while running:
                 running = False
             if event.key == pygame.K_a:
                 text = font.render("A", True, green, blue)
+<<<<<<< HEAD
+=======
+    if event.key == pygame.K_a:
+        text = font.render("A", True, green, blue)
+>>>>>>> a40ea7c970de380f7080819c8440f86c4afb8d92
