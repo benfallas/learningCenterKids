@@ -51,3 +51,5 @@ while running:
             if event.key == pygame.K_ESCAPE:
                 #If escame key pressed end the game
                 running = False
+            if event.key == pygame.K_a:
+                text = font.render("A", True, green, blue)
