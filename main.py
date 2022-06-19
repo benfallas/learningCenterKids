@@ -29,7 +29,7 @@ running = True
 text = font.render("Welcome", True, blue)
 textRect = text.get_rect()
 textRect.center = (screenWidth / 2, screenHeight / 2)
-image = pygame.image.load('./images/baby').convert()
+image = pygame.image.load('./images/baby').convert() #baby image
 image_rect = image.get_rect()
 image_rect.center = (screenWidth/2, screenHeight/3 * 1) #default image
 
@@ -66,8 +66,9 @@ while running:
                 pygame.mixer.music.load("./audio/phonics/a.mp3")
                 pygame.mixer.music.play()
                 text = font.render("Aa", True, blue)
+                image = pygame.image.load('./images/apple.jpg').convert()
+                image_rect = image.get_rect()
                 #image accordering to letter
-
             if event.key == pygame.K_b:
                 pygame.mixer.music.load("./audio/phonics/b.mp3")
                 pygame.mixer.music.play()
