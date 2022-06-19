@@ -104,3 +104,6 @@ while running:
                 text = font.render("Y", True, blue)
             if event.key == pygame.K_z:
                 text = font.render("Z", True, blue)
+
+            textRect = text.get_rect()
+            textRect.center = (screenWidth / 2, screenHeight / 2)
