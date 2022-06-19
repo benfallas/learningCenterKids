@@ -29,6 +29,10 @@ running = True
 text = font.render("Welcome", True, blue)
 textRect = text.get_rect()
 textRect.center = (screenWidth / 2, screenHeight / 2)
+image = pygame.image.load('./images/baby').convert()
+image_rect = image.get_rect()
+image_rect.center = (screenWidth/2, 350)
+
 # keep game running till running is true
 while running:
 
@@ -37,6 +41,9 @@ while running:
 
     # Draw the text over the rectangle
     displaySurface.blit(text, textRect)
+    # Draw the text over the rectangle
+    displaySurface.blit(image, image_rect)
+
 
     # Check for event if user has pushed
     # any event in queue
@@ -59,6 +66,8 @@ while running:
                 pygame.mixer.music.load("./audio/phonics/a.mp3")
                 pygame.mixer.music.play()
                 text = font.render("Aa", True, blue)
+                #image accordering to letter
+        
             if event.key == pygame.K_b:
                 pygame.mixer.music.load("./audio/phonics/b.mp3")
                 pygame.mixer.music.play()
@@ -162,3 +171,4 @@ while running:
 
             textRect = text.get_rect()
             textRect.midright = (screenWidth / 2, screenHeight / 2)
+            image_rect.midleft = ((screenWidth / 4) * 3, screenHeight / 2)
