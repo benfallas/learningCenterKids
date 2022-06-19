@@ -2,6 +2,9 @@
 # import pygame package
 import pygame
 pygame.init()
+file = ''
+pygame.init()
+pygame.mixer.init()
 
 # define the RGB value for white,
 #  green, blue colour .
@@ -53,56 +56,108 @@ while running:
                 #If escame key pressed end the game
                 running = False
             if event.key == pygame.K_a:
+                pygame.mixer.music.load("./audio/phonics/a.mp3")
+                pygame.mixer.music.play()
                 text = font.render("Aa", True, blue)
             if event.key == pygame.K_b:
+                pygame.mixer.music.load("./audio/phonics/b.mp3")
+                pygame.mixer.music.play()
                 text = font.render("Bb", True, blue)
             if event.key == pygame.K_c:
+                pygame.mixer.music.load("./audio/phonics/c.mp3")
+                pygame.mixer.music.play()
                 text = font.render("Cc", True, blue)
             if event.key == pygame.K_d:
+                pygame.mixer.music.load("./audio/phonics/d.mp3")
+                pygame.mixer.music.play()
                 text = font.render("Dd", True, blue)
             if event.key == pygame.K_e:
+                pygame.mixer.music.load("./audio/phonics/e.mp3")
+                pygame.mixer.music.play()
                 text = font.render("Ee", True, blue)
             if event.key == pygame.K_f:
+                pygame.mixer.music.load("./audio/phonics/f.mp3")
+                pygame.mixer.music.play()
                 text = font.render("Ff", True, blue)
             if event.key == pygame.K_g:
+                pygame.mixer.music.load("./audio/phonics/g.mp3")
+                pygame.mixer.music.play()
                 text = font.render("Gg", True, blue)
             if event.key == pygame.K_h:
+                pygame.mixer.music.load("./audio/phonics/h.mp3")
+                pygame.mixer.music.play()
                 text = font.render("Hh", True, blue)
             if event.key == pygame.K_i:
+                pygame.mixer.music.load("./audio/phonics/i.mp3")
+                pygame.mixer.music.play()
                 text = font.render("Ii", True, blue)
             if event.key == pygame.K_j:
+                pygame.mixer.music.load("./audio/phonics/j.mp3")
+                pygame.mixer.music.play()
                 text = font.render("Jj", True, blue)
             if event.key == pygame.K_k:
+                pygame.mixer.music.load("./audio/phonics/k.mp3")
+                pygame.mixer.music.play()
                 text = font.render("Kk", True, blue)
             if event.key == pygame.K_l:
+                pygame.mixer.music.load("./audio/phonics/l.mp3")
+                pygame.mixer.music.play()
                 text = font.render("Ll", True, blue)
             if event.key == pygame.K_m:
+                pygame.mixer.music.load("./audio/phonics/m.mp3")
+                pygame.mixer.music.play()
                 text = font.render("Mm", True, blue)
             if event.key == pygame.K_n:
+                pygame.mixer.music.load("./audio/phonics/n.mp3")
+                pygame.mixer.music.play()
                 text = font.render("Nn", True, blue)
             if event.key == pygame.K_o:
+                pygame.mixer.music.load("./audio/phonics/o.mp3")
+                pygame.mixer.music.play()
                 text = font.render("Oo", True, blue)
             if event.key == pygame.K_p:
+                pygame.mixer.music.load("./audio/phonics/p.mp3")
+                pygame.mixer.music.play()
                 text = font.render("Pp", True, blue)
             if event.key == pygame.K_q:
+                pygame.mixer.music.load("./audio/phonics/q.mp3")
+                pygame.mixer.music.play()
                 text = font.render("Qq", True, blue)
             if event.key == pygame.K_r:
+                pygame.mixer.music.load("./audio/phonics/r.mp3")
+                pygame.mixer.music.play()
                 text = font.render("Rr", True, blue)
             if event.key == pygame.K_s:
+                pygame.mixer.music.load("./audio/phonics/s.mp3")
+                pygame.mixer.music.play()
                 text = font.render("Ss", True, blue)
             if event.key == pygame.K_t:
+                pygame.mixer.music.load("./audio/phonics/t.mp3")
+                pygame.mixer.music.play()
                 text = font.render("Tt", True, blue)
             if event.key == pygame.K_u:
+                pygame.mixer.music.load("./audio/phonics/u.mp3")
+                pygame.mixer.music.play()
                 text = font.render("Uu", True, blue)
             if event.key == pygame.K_v:
+                pygame.mixer.music.load("./audio/phonics/v.mp3")
+                pygame.mixer.music.play()
                 text = font.render("Vv", True, blue)
             if event.key == pygame.K_w:
+                pygame.mixer.music.load("./audio/phonics/w.mp3")
+                pygame.mixer.music.play()
                 text = font.render("Ww", True, blue)
             if event.key == pygame.K_x:
+                pygame.mixer.music.load("./audio/phonics/x.mp3")
+                pygame.mixer.music.play()
                 text = font.render("Xx", True, blue)
             if event.key == pygame.K_y:
+                pygame.mixer.music.load("./audio/phonics/y.mp3")
+                pygame.mixer.music.play()
                 text = font.render("Yy", True, blue)
             if event.key == pygame.K_z:
+                pygame.mixer.music.load("./audio/phonics/z.mp3")
+                pygame.mixer.music.play()
                 text = font.render("Zz", True, blue)
 
             textRect = text.get_rect()
