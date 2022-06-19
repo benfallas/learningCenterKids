@@ -13,7 +13,7 @@ screenWidth = pygame.display.Info().current_w # gets monitor info
 screenHeight = pygame.display.Info().current_h # gets monitor info
 
 # initializing imported module
-font = pygame.font.Font('freesansbold.ttf', 32)
+font = pygame.font.Font('freesansbold.ttf', 50)
 
 
 # displaying a window of height
@@ -26,7 +26,6 @@ running = True
 text = font.render("Welcome", True, green, blue)
 textRect = text.get_rect()
 textRect.center = (screenWidth / 2, screenHeight / 2)
-
 # keep game running till running is true
 while running:
 
@@ -48,13 +47,13 @@ while running:
         pygame.display.update()
 
         if event.type == pygame.KEYDOWN:
+            #make text larger
+            font = pygame.font.Font('freesansbold.ttf', 500)
             if event.key == pygame.K_ESCAPE:
                 #If escame key pressed end the game
                 running = False
             if event.key == pygame.K_a:
                 text = font.render("A", True, green, blue)
-<<<<<<< HEAD
-=======
-    if event.key == pygame.K_a:
-        text = font.render("A", True, green, blue)
->>>>>>> a40ea7c970de380f7080819c8440f86c4afb8d92
+
+            textRect = text.get_rect()
+            textRect.center = (screenWidth / 2, screenHeight / 2)
