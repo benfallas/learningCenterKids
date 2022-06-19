@@ -55,55 +55,55 @@ while running:
             if event.key == pygame.K_a:
                 text = font.render("Aa", True, blue)
             if event.key == pygame.K_b:
-                text = font.render("B", True, blue)
+                text = font.render("Bb", True, blue)
             if event.key == pygame.K_c:
-                text = font.render("C", True, blue)
+                text = font.render("Cc", True, blue)
             if event.key == pygame.K_d:
-                text = font.render("D", True, blue)
+                text = font.render("Dd", True, blue)
             if event.key == pygame.K_e:
-                text = font.render("E", True, blue)
+                text = font.render("Ee", True, blue)
             if event.key == pygame.K_f:
-                text = font.render("F", True, blue)
+                text = font.render("Ff", True, blue)
             if event.key == pygame.K_g:
-                text = font.render("G", True, blue)
+                text = font.render("Gg", True, blue)
             if event.key == pygame.K_h:
-                text = font.render("H", True, blue)
+                text = font.render("Hh", True, blue)
             if event.key == pygame.K_i:
-                text = font.render("I", True, blue)
+                text = font.render("Ii", True, blue)
             if event.key == pygame.K_j:
-                text = font.render("J", True, blue)
+                text = font.render("Jj", True, blue)
             if event.key == pygame.K_k:
-                text = font.render("K", True, blue)
+                text = font.render("Kk", True, blue)
             if event.key == pygame.K_l:
-                text = font.render("L", True, blue)
+                text = font.render("Ll", True, blue)
             if event.key == pygame.K_m:
-                text = font.render("M", True, blue)
+                text = font.render("Mm", True, blue)
             if event.key == pygame.K_n:
-                text = font.render("N", True, blue)
+                text = font.render("Nn", True, blue)
             if event.key == pygame.K_o:
-                text = font.render("O", True, blue)
+                text = font.render("Oo", True, blue)
             if event.key == pygame.K_p:
-                text = font.render("P", True, blue)
+                text = font.render("Pp", True, blue)
             if event.key == pygame.K_q:
-                text = font.render("Q", True, blue)
+                text = font.render("Qq", True, blue)
             if event.key == pygame.K_r:
-                text = font.render("R", True, blue)
+                text = font.render("Rr", True, blue)
             if event.key == pygame.K_s:
-                text = font.render("S", True, blue)
+                text = font.render("Ss", True, blue)
             if event.key == pygame.K_t:
-                text = font.render("T", True, blue)
+                text = font.render("Tt", True, blue)
             if event.key == pygame.K_u:
-                text = font.render("U", True, blue)
+                text = font.render("Uu", True, blue)
             if event.key == pygame.K_v:
-                text = font.render("V", True, blue)
+                text = font.render("Vv", True, blue)
             if event.key == pygame.K_w:
-                text = font.render("W", True, blue)
+                text = font.render("Ww", True, blue)
             if event.key == pygame.K_x:
-                text = font.render("X", True, blue)
+                text = font.render("Xx", True, blue)
             if event.key == pygame.K_y:
-                text = font.render("Y", True, blue)
+                text = font.render("Yy", True, blue)
             if event.key == pygame.K_z:
-                text = font.render("Z", True, blue)
+                text = font.render("Zz", True, blue)
 
             textRect = text.get_rect()
             textRect.center = (screenWidth / 2, screenHeight / 2)
