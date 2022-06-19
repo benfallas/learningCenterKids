@@ -161,4 +161,4 @@ while running:
                 text = font.render("Zz", True, blue)
 
             textRect = text.get_rect()
-            textRect.center = (screenWidth / 2, screenHeight / 2)
+            textRect.midright = (screenWidth / 2, screenHeight / 2)
